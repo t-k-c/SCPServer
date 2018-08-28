@@ -1,0 +1,60 @@
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+    background-color: rgb(240, 240, 240);
+}
+
+body::-webkit-scrollbar {
+    width: 4px;
+    background-color: rgb(240, 240, 240);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #fd4326;
+    border-radius: 5px;
+}
+.scroll-bar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+    background-color: rgb(240, 240, 240);
+}
+
+.scroll-bar::-webkit-scrollbar {
+    width: 4px;
+    background-color: rgb(240, 240, 240);
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+    background-color: #fd4326;
+    border-radius: 5px;
+}
+body,html{
+    height:100%;
+    width:100%;
+}
+.body{
+    height:100%;
+    width:100%;
+    background: url("../images/dawn-landscape-mountains-nature.png") no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+}
+.main{
+    height:100%;
+    width:100%;
+    top:0;
+    background: rgba(0,0,0,0.5);
+    position:relative;
+    display: flex;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+.btn:focus, .btn-large:focus, .btn-floating:focus {
+    background-color: #021E45!important;
+}
+.btn:hover, .btn-large:hover {
+    background-color: #021E45;
+}
+/*
+table  *{
+    color:white;
+}*/
